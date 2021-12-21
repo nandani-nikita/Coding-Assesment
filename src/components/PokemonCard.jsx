@@ -8,7 +8,7 @@ const PokemonCard = ({ pokemon }) => {
       <h4><span className="poke-name">{pokemon.name}</span>
         <br />
         <span className='label'>Level: </span>
-        <span className='poke-level'>{(pokemon.level) ? pokemon.level : "New Beginning"}</span>
+        <span className='poke-level'>{(pokemon.level) ? pokemon.level : "Early Stage"}</span>
         <span className="poke-hp label">
           HP:
           {(pokemon.hp) ? pokemon.hp : "-"}</span>
