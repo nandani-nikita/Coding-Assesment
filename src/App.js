@@ -33,6 +33,11 @@ export default function App() {
     // console.log(data)
     return (
         <div className="App">
+            <h2>Pokemon World...</h2>
+            <marquee width="100%" direction="right" height="100px" className="marquee"> 
+            Poke-Cards
+            </marquee>
+            
             <main>
                 {isLoading ? (
                     <p>Loading...</p>
