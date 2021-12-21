@@ -23,7 +23,7 @@ h2 {
     width:min-content
     }
   .poke-card h4 {
-    background: #e2ee3e;
+    background: #6e7421;
     padding: 0.5rem;
     position: relative;
     top: -25px;
@@ -36,7 +36,7 @@ h2 {
   }
 
   .poke-name {
-    color: rgb(32, 90, 30);
+    color: rgb(164, 243, 161);
     font-family: 'Courier New', Courier, monospace;
     font-size: 19px;
     font-style: italic;
@@ -48,14 +48,15 @@ h2 {
   }
 .label{
   font-family: cursive;
+  color: aliceblue;
 }
   .poke-desc {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     float: right;
-    color: rgb(168, 13, 91);
+    color: rgb(255, 238, 2);
   }
 
   .poke-level {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: indigo;
+    color: rgb(229, 192, 250);
   }
